@@ -1,0 +1,13 @@
+# Entorno virtual
+.venv/
+
+# Datos originales (públicos, se descargan del portal de MiBici)
+datos/
+
+# Archivos intermedios pesados (se regeneran con los notebooks)
+procesado/*
+!procesado/*.csv
+
+# Archivos de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/

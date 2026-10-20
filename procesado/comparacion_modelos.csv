@@ -1,0 +1,10 @@
+,MAE,MAE,RMSE,RMSE,R2,R2
+conjunto,entrenamiento,prueba,entrenamiento,prueba,entrenamiento,prueba
+modelo,,,,,,
+Gradient Boosting (Poisson),1.886,2.12,2.67,3.284,0.747,0.639
+"Gradient Boosting (Poisson), sin mes",1.957,2.123,2.801,3.287,0.721,0.638
+Base (promedio histórico),1.983,2.169,2.866,3.363,0.708,0.621
+Random Forest optimizado,1.754,2.174,2.506,3.354,0.777,0.623
+Random Forest,1.621,2.315,2.336,3.548,0.806,0.578
+Árbol de decisión,1.603,2.322,2.328,3.559,0.808,0.576
+Regresión lineal,2.739,2.805,4.017,4.247,0.427,0.396
