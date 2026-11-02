@@ -15,6 +15,7 @@ No se incluyen en el repositorio. Para reproducir el análisis, descarga los arc
 datos/
 ├── 2024/   datos_abiertos_2024_01.csv ... datos_abiertos_2024_12.csv
 ├── 2025/   datos_abiertos_2025_01.csv ... datos_abiertos_2025_12.csv
+├── 2026/   datos_abiertos_2026_01.csv ... datos_abiertos_2026_05.csv
 └── nomenclatura_2026_09.csv
 ```
 
@@ -34,7 +35,9 @@ Ejecuta los notebooks en orden:
 | `02_preparacion.ipynb` | Carga unificada, análisis de duraciones, reglas de limpieza y selección de estaciones |
 | `02b_revision_usuarios.ipynb` | Verificación de que los movimientos de balanceo no están registrados como viajes |
 | `03_tabla_modelo.ipynb` | Tabla estación × hora con intervalos de cero salidas, variables de calendario y festivos |
-| `04_modelos.ipynb` | Modelo base, regresión lineal, árbol de decisión, Random Forest, validación cruzada temporal, Grid Search, selección de características y Gradient Boosting |
+| `04_modelos.ipynb` | Modelo base, regresión lineal, árbol de decisión, Random Forest, validación cruzada temporal, |
+| `05_evaluacion.ipynb` | Evaluación del rendimiento con métricas de regresión y de detección de horas pico, incluido un periodo independiente (enero a abril de 2026) |
+Grid Search, selección de características y Gradient Boosting |
 
 ## Resultados (conjunto de prueba, 2025)
 
